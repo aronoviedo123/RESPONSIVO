@@ -10,9 +10,9 @@
 
 a:link,
 a:visited {
-    padding: 1.25rem;
+    padding: 1.25em;
     color: rgb(255, 255, 255);
-    font-size: 0.875rem;
+    font-size: 1em;
 }
 
 a:hover {
@@ -27,9 +27,9 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 1, 1, 0)), url(top.jpeg );
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
     padding-bottom: 12.5em;
-    align-items: center;
-    background-position: center;
+    margin: 0px;
 }
 
 body {
@@ -70,7 +70,7 @@ header p {
 
 .contenedor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -84,6 +84,7 @@ header p {
     background-color: rgb(95, 93, 93);
     border-radius: 20px;
     padding: 3.125rem;
+
 }
 
 .contenedor p {
@@ -121,6 +122,12 @@ header p {
 
 @media screen and (max-width: 1000px) {
     body {
-        font-size: 10px;
+        font-size: 9px;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
     }
 }
