@@ -10,17 +10,31 @@
 
 a:link,
 a:visited {
-    padding: 1.25em;
+    padding: 0px 20px;
     color: rgb(255, 255, 255);
     font-size: 1em;
 }
 
-a:hover {
-    background-color: coral;
+
+.tittle {
+    padding-top: 200px;
+    margin-left: 250px;
+    font-size: 20px;
     color: aliceblue;
-    font-size: 1.25em;
-    padding: 0.625em;
-    margin: 1.25em;
+}
+
+.tuno {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tdos {
+    font-size: 34px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ttres {
+    font-size: 18px;
 }
 
 header {
@@ -40,65 +54,112 @@ body {
     font-size: 1rem;
 }
 
-.menu {
-    float: right;
-    position: relative;
-}
-
-h1 {
+.titulo {
     color: rgb(255, 255, 255);
+    position: absolute;
+    width: 500px;
+    font-size: 16px;
+    margin-left: 250px;
     text-align: center;
-    padding-top: 7.5rem;
-    font-size: 3em;
+
+
+
 }
 
-h2 {
-    color: aliceblue;
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.cuadrouno {
+    background-color: rgb(226, 226, 226);
     text-align: center;
-    padding-top: 0.3125em;
-    font-size: 3.75em;
+
 }
 
-header p {
-    color: aliceblue;
+.cuadrodos {
+    background-color: rgb(78, 110, 82);
     text-align: center;
-    font-size: 1em;
-    padding: 15.625em;
-    padding-bottom: 0em;
-    padding-top: 3.125em;
+    padding-bottom: 50px;
 }
 
-.contenedor {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+.c_uno {
+    padding-top: 50px;
+    font-size: 30px;
+    stroke: black;
 }
 
-.contenedor h2 {
+.c_dos {
+    padding-top: 70px;
+    font-size: 20px;
+    padding-bottom: 80px
+}
+
+.d_uno {
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+}
+
+.d_dos {
+    color: white;
+
+    padding-top: 70px;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+
+
+.enlaces {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form1 {
+    background-color: rgb(255, 153, 0);
+    width: 450px;
+    height: 47px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
     text-align: center;
-    font-size: 2em;
-}
-
-.contenedor div {
-
-    background-color: rgb(95, 93, 93);
-    border-radius: 20px;
-    padding: 3.125rem;
-
-}
-
-.contenedor p {
-    font-size: 1.5em;
-    color: rgb(224, 224, 222);
+    margin-top: 24px;
 }
 
 
-.imagen {
-    width: 25em;
-    height: 18.75em;
-    border-radius: 1.875em;
-    padding-top: 1.25em;
+.form2 {
+    background-color: rgb(253, 173, 0);
+    width: 500px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
 }
+
+.form3 {
+    background-color: rgb(224, 224, 224);
+    width: 350px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.form4 {
+    background-color: rgb(224, 224, 224);
+    width: 380px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    margin-right: 8px;
+}
+
 
 .footer-content {
     background-size: cover;
@@ -114,20 +175,20 @@ header p {
 
 .footer-content h3 {
     padding-left: 0.9375em;
+    margin-top: 40px;
+}
+
+.footer-content i {
+    font-size: 30px;
 }
 
 .footer-content p {
     padding-top: 1.875em;
 }
 
-@media screen and (max-width: 1000px) {
-    body {
-        font-size: 9px;
-    }
 
-    .contenedor {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 2rem;
-    }
+.fa-solid {
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 9px;
 }

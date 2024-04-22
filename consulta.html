@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css" />
+</head>
+
+<body>
+    <div class="titulo">
+        <center>
+            <div>
+                <div style="background-color: rgb(216, 18, 18); width: 500px; height: 7px; margin: 0px;"></div>
+                <div style="background-color: rgb(255, 255, 0); width: 500px; height: 7px ; margin: 0px;"></div>
+                <div style="background-color: rgb(19, 83, 19); width: 500px; height: 7px; margin: 0px;"></div>
+            </div>
+        </center>
+        <p> Registro Nacional De Tenencia Responsable De Mascota y Animales De Compañia
+        </p>
+
+    </div>
+
+    <div class="menu">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href=""> Requisitos</a>
+            <a href="">Preguntas frecuentes</a>
+            <a href="consulta.html">Consulta de animales extraviados</a>
+            <a href="">Mis solicitudes</a>
+        </nav>
+
+    </div>
+
+    <div class="consul">
+        <center style="font-size: 40px;">
+            <strong>
+                <p style="font-family: 'Courier New', Courier, monospace;">Consultas</p>
+            </strong>
+        </center>
+        <p style="font-family: 'Courier New', Courier, monospace;">En el siguiente cuadro podrá consultar, mediante
+            el número de microchip o identificador de dispositivo
+            externo de la mascota, algunos datos asociados a animales extraviados que se encuentren ingresados en el
+            Registro Nacional de Tenencia Responsable de Mascotas y Animales de Compañía <br> <br>
+            Si el animal se encuentra registrado, debe activar el botón azul 'Contactar Responsable', luego completar el
+            formulario y enviarlo. De este modo, Ud. recibirá un correo con los datos de la persona responsable del
+            animal (datos de contacto) y ésta, a su vez, recibirá un correo con los datos de contacto que Ud ingresó en
+            el formulario. Usando estos datos podrá comunicarse a la brevedad y coordinar el reencuentro del animal con
+            su familia.</p>
+
+        <p style="font-family: 'Courier New', Courier, monospace;">Si el animal no se encuentra registrado, o bien no
+            hay respuesta del tenedor responsable, envíenos su nombre,
+            teléfono y correo electrónico, indicando la especie del animal de compañía (gato o perro), su número de
+            microchip, región y comuna del hallazgo, a la casilla electrónica: tenenciaresponsable@subdere.gov.cl</p>
+    </div>
+
+    <section class=" container">
+        <div class="sec1">
+            <form action="">
+                <label for="">Microchip/Identificador:</label>
+                <input type="text" id="number_addres" name="number_addres" placeholder="INGRESA TU C.I." /> <br>
+                <label for="">Confirmación identidad:</label>
+                <div class="container2">
+                    <form action="#">
+                        <div class="captcha-box">
+                            <div class="captcha-image"></div>
+                            <input type="text" placeholder="Introduce el texto mostrado" required>
+                        </div>
+                        <button type="submit">Verificar</button>
+                    </form>
+                </div>
+
+                <input type="button" value="Limpiar">
+                <input type="button" value="Consultar">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
